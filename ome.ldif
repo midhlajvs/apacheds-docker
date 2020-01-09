@@ -1,23 +1,16 @@
 version: 1
 
-dn: dc=org
-objectClass: extensibleObject
-objectClass: domain
-objectClass: top
-dc: org
-
-dn: dc=openmicroscopy,dc=org
-objectClass: extensibleObject
-objectClass: domain
-objectClass: top
-dc: openmicroscopy
-
-dn: ou=Users,dc=openmicroscopy,dc=org
+dn: ou=dev,dc=nexquare,dc=io
 objectClass: organizationalUnit
 objectClass: top
-ou: Users
+ou: dev
 
-dn: ou=Groups,dc=openmicroscopy,dc=org
+dn: ou=qa,dc=nexquare,dc=io
 objectClass: organizationalUnit
 objectClass: top
-ou: Groups
+ou: qa
+
+dn: ou=nexusers,dc=nexquare,dc=io
+objectClass: organizationalUnit
+objectClass: top
+ou: qa
