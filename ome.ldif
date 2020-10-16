@@ -1,16 +1,16 @@
 version: 1
 
-dn: ou=dev,dc=nexquare,dc=io
+dn: ou=dev,dc=moe,dc=gov.ae
 objectClass: organizationalUnit
 objectClass: top
 ou: dev
 
-dn: ou=qa,dc=nexquare,dc=io
+dn: ou=qa,dc=moe,dc=gov.ae
 objectClass: organizationalUnit
 objectClass: top
 ou: qa
 
-dn: ou=nexusers,dc=nexquare,dc=io
+dn: ou=nexusers,dc=moe,dc=gov.ae
 objectClass: organizationalUnit
 objectClass: top
 ou: qa
